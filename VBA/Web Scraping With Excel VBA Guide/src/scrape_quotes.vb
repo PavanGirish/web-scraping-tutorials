@@ -3,6 +3,7 @@ Sub scrape_quotes()
     Dim page As HTMLDocument
     Dim quotes As Object
     Dim authors As Object
+    Dim num as Integer
     
     Set browser = New InternetExplorer
     browser.Visible = True
